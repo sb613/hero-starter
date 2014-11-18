@@ -54,6 +54,7 @@ var moves = {
       } else {
         // Otherwise, go attack someone...anyone.
         return helpers.findNearestEnemy(gameData);
+      }
     }
   },
 
